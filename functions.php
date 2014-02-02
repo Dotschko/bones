@@ -47,6 +47,8 @@ require_once( 'library/custom-post-type.php' ); // you can disable this if you l
 
 /************* THUMBNAIL SIZE OPTIONS *************/
 
+add_theme_support( 'post-thumbnails' );
+
 // Thumbnail sizes
 add_image_size( 'bones-thumb-600', 600, 150, true );
 add_image_size( 'bones-thumb-300', 300, 100, true );
